@@ -7,12 +7,14 @@ import org.mongodb.scala.Document
 import services.LocationService._
 import services.TemporalService.groupTemporalByLocation
 import services.ClusteringService.{saveCluster, clusterIsExist}
-import helpers.Normalization.zScore
+import helpers.Normalization.{zScore, minMax}
 import helpers.Cluster.{countDiff, getNewCluster}
 
 
 object Main extends App {
   val ncluster = 3
+  val max = 1
+  val min = 0
 
   val clusteringLib = new ClusteringLib()
   val locations = findIndonesianLocations()
@@ -78,6 +80,25 @@ object Main extends App {
         data = data :+ temp
       }
 
+      val minService = data.sortBy(_(0))(Ordering[Double])(0)(0)
+      val maxService = data.sortBy(_(0))(Ordering[Double].reverse)(0)(0)
+      val minValue = data.sortBy(_(1))(Ordering[Double])(0)(1)
+      val maxValue = data.sortBy(_(1))(Ordering[Double].reverse)(0)(1)
+      val minFood = data.sortBy(_(2))(Ordering[Double])(0)(2)
+      val maxFood = data.sortBy(_(2))(Ordering[Double].reverse)(0)(2)
+      val minVader = data.sortBy(_(3))(Ordering[Double])(0)(3)
+      val maxVader = data.sortBy(_(3))(Ordering[Double].reverse)(0)(3)
+      val minWordnet = data.sortBy(_(4))(Ordering[Double])(0)(4)
+      val maxWordnet = data.sortBy(_(4))(Ordering[Double].reverse)(0)(4)
+
+      for(i <- data.indices){
+        data(i)(0) = minMax(data(i)(0), minService, maxService, min, max)
+        data(i)(1) = minMax(data(i)(1), minValue, maxValue, min, max)
+        data(i)(2) = minMax(data(i)(2), minFood, maxFood, min, max)
+        data(i)(3) = minMax(data(i)(3), minVader, maxVader, min, max)
+        data(i)(4) = minMax(data(i)(4), minWordnet, maxWordnet, min, max)
+      }
+
       val hierarchicalCluster = clusteringLib.HierarchicalKmeans(data, ncluster)
       val centroids = clusteringLib.getCentroid(data, hierarchicalCluster)
 
@@ -88,9 +109,14 @@ object Main extends App {
         variance(0) = 0
       }
 
-      println(variance(0), variance(1), variance(0) / variance(1))
+//      println(variance(0), variance(1), variance(0) / variance(1))
 
       val newClusters = getNewCluster(centroids)
+
+//      newClusters.foreach{c=>print(s"$c ")}
+//      println
+//      hierarchicalCluster.foreach{c=>print(s"${c} ")}
+
 
       hierarchicalCluster.zipWithIndex foreach { case (cluster, i) =>
         val document = Document(
@@ -100,7 +126,7 @@ object Main extends App {
           "restaurant" -> restaurants.get(i).asDocument(),
           "month" -> month,
           "year" -> year,
-          "new_cluster" -> newClusters(cluster),
+          "new_cluster" -> newClusters.indexOf(cluster),
           "cluster" -> cluster,
           "service" -> data(i)(0),
           "value" -> data(i)(1),
@@ -110,6 +136,8 @@ object Main extends App {
           "variance" -> (variance(0) / variance(1)),
           "sse" -> sse
         )
+
+//        println(s"${data(i)(0)} ${data(i)(1)} ${data(i)(2)} ${data(i)(3)} ${data(i)(4)}")
 
         saveCluster(document)
       }

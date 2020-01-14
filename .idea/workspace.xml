@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ad065ef-955c-46c1-8ccd-727a49fe539f" name="Default Changelist" comment="" />
+    <list default="true" id="9ad065ef-955c-46c1-8ccd-727a49fe539f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/helpers/Cluster.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/helpers/Cluster.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/helpers/Normalization.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/helpers/Normalization.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Cluster$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Cluster$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Normalization$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Normalization$.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -51,6 +64,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libraries/ALI-19.11.18.jar!/" />
@@ -147,6 +161,7 @@
       <workItem from="1578839262898" duration="10612000" />
       <workItem from="1578906824999" duration="994000" />
       <workItem from="1578972776091" duration="31000" />
+      <workItem from="1579021066448" duration="6999000" />
     </task>
     <servers />
   </component>
@@ -166,22 +181,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="338" y="141" width="735" height="527" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578493574776" />
-    <state width="1253" height="508" key="GridCell.Tab.0.bottom" timestamp="1578914787138">
+    <state width="1253" height="508" key="GridCell.Tab.0.bottom" timestamp="1579003573089">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="508" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578914787138" />
-    <state width="1253" height="508" key="GridCell.Tab.0.center" timestamp="1578914787137">
+    <state width="1253" height="508" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
+    <state width="1253" height="508" key="GridCell.Tab.0.center" timestamp="1579003573089">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="508" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578914787137" />
-    <state width="1253" height="508" key="GridCell.Tab.0.left" timestamp="1578914787137">
+    <state width="1253" height="508" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
+    <state width="1253" height="508" key="GridCell.Tab.0.left" timestamp="1579003573089">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="508" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578914787137" />
-    <state width="1253" height="508" key="GridCell.Tab.0.right" timestamp="1578914787138">
+    <state width="1253" height="508" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
+    <state width="1253" height="508" key="GridCell.Tab.0.right" timestamp="1579003573089">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="508" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578914787138" />
+    <state width="1253" height="508" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
     <state width="1253" height="190" key="GridCell.Tab.1.bottom" timestamp="1578750207712">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -206,9 +221,13 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="383" y="287" width="646" height="243" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1299.741@67.27.1299.741" timestamp="1578493284714" />
-    <state x="380" y="174" key="run.anything.popup" timestamp="1578740247197">
+    <state x="380" y="174" key="run.anything.popup" timestamp="1578997901955">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="380" y="174" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1578740247197" />
+    <state x="380" y="174" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1578997901955" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578997572612">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1578997572612" />
   </component>
 </project>

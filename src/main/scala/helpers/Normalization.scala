@@ -5,7 +5,12 @@ import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics
 
 object Normalization {
   def minMax(data:Double, min:Double, max:Double, new_min: Double, new_max: Double):Double = {
-    (data - min) * (new_max - new_min) / (max - min) + new_min
+    var newData = (data - min) * (new_max - new_min) / (max - min) + new_min
+
+    if(newData.isNaN)
+      newData = max
+
+    newData
   }
 
 

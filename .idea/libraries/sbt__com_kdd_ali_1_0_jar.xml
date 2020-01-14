@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.kdd:ali:1.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libraries/ALI-19.11.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

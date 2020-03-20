@@ -20,7 +20,7 @@ object Helpers {
     val observable: Observable[C]
     val converter: (C) => String
 
-    def results(): Seq[C] = Await.result(observable.toFuture(), Duration(10, TimeUnit.SECONDS))
+    def results(): Seq[C] = Await.result(observable.toFuture(), Duration(36, TimeUnit.SECONDS))
     def headResult(): C = Await.result(observable.head(), Duration(10, TimeUnit.SECONDS))
     def printResults(initial: String = ""): Unit = {
       if (initial.length > 0) print(initial)

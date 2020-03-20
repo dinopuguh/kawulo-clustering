@@ -25,10 +25,8 @@ object Cluster {
     var newClusters = Array[Int]()
 
     sortedTemp.indices.foreach{i =>
-//      print(s"${sortedTemp(i)} ")
       newClusters = newClusters :+ sortedTemp(i)._2
     }
-//    println
 
     newClusters
   }

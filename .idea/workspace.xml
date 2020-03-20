@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ad065ef-955c-46c1-8ccd-727a49fe539f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/clustering/services/TemporalService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clustering/services/TemporalService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/helpers/Cluster.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/helpers/Cluster.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/helpers/Normalization.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/helpers/Normalization.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/kawulo-restaurant-clustering.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$delayedInit$body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Cluster$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Cluster$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Normalization$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/helpers/Normalization$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.63448274" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="clustering.Main" />
       <module name="kawulo-restaurant-clustering" />
@@ -86,9 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="kawulo-restaurant-clustering" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Scala REPL.Scala REPL" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +175,10 @@
       <workItem from="1578906824999" duration="994000" />
       <workItem from="1578972776091" duration="31000" />
       <workItem from="1579021066448" duration="6999000" />
+      <workItem from="1582858911962" duration="253000" />
+      <workItem from="1582859216488" duration="3168000" />
+      <workItem from="1584018630084" duration="596000" />
+      <workItem from="1584685427876" duration="11000" />
     </task>
     <servers />
   </component>
@@ -169,33 +186,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="449" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578660210811">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1954" y="215" width="800" height="684" key="#Notifications" timestamp="1582859244755">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1954" y="215" width="800" height="684" key="#Notifications/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582859244755" />
+    <state x="1931" y="187" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582860003609">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1931" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582860003609" />
     <state x="449" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1578660210811" />
     <state x="524" y="89" width="371" height="637" key="#com.intellij.ide.util.MemberChooser" timestamp="1578497625814">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="524" y="89" width="371" height="637" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1578497625814" />
+    <state x="2042" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582858940662">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2042" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582858940662" />
+    <state x="1827" y="63" width="1055" height="988" key="CommitChangelistDialog2" timestamp="1584687887639">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1827" y="63" width="1055" height="988" key="CommitChangelistDialog2/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584687887639" />
     <state x="338" y="141" width="735" height="527" key="FileChooserDialogImpl" timestamp="1578493574776">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="338" y="141" width="735" height="527" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578493574776" />
-    <state width="1253" height="508" key="GridCell.Tab.0.bottom" timestamp="1579003573089">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1807" height="803" key="GridCell.Tab.0.bottom" timestamp="1582884370245">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1807" height="803" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582884370245" />
     <state width="1253" height="508" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1253" height="508" key="GridCell.Tab.0.center" timestamp="1579003573089">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1807" height="803" key="GridCell.Tab.0.center" timestamp="1582884370244">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1807" height="803" key="GridCell.Tab.0.center/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582884370244" />
     <state width="1253" height="508" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1253" height="508" key="GridCell.Tab.0.left" timestamp="1579003573089">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1807" height="803" key="GridCell.Tab.0.left" timestamp="1582884370244">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1807" height="803" key="GridCell.Tab.0.left/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582884370244" />
     <state width="1253" height="508" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1253" height="508" key="GridCell.Tab.0.right" timestamp="1579003573089">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1807" height="803" key="GridCell.Tab.0.right" timestamp="1582884370244">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1807" height="803" key="GridCell.Tab.0.right/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1582884370244" />
     <state width="1253" height="508" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
     <state width="1253" height="190" key="GridCell.Tab.1.bottom" timestamp="1578750207712">
       <screen x="67" y="27" width="1299" height="741" />

@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9ad065ef-955c-46c1-8ccd-727a49fe539f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clustering/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/clustering/services/TemporalService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clustering/services/TemporalService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/database/Mongo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/database/Mongo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/helpers/Helpers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/helpers/Helpers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/clustering/services/TemporalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/kawulo-restaurant-clustering_2.12-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/kawulo-restaurant-clustering_2.12-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,8 @@
       <workItem from="1582859216488" duration="3168000" />
       <workItem from="1584018630084" duration="596000" />
       <workItem from="1584685427876" duration="11000" />
-      <workItem from="1584687791539" duration="4284000" />
+      <workItem from="1584687791539" duration="4613000" />
+      <workItem from="1584759962955" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="fix pa1">
       <created>1584687911622</created>
@@ -208,6 +209,10 @@
     </state>
     <state x="1931" y="187" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584706941782" />
     <state x="449" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1578660210811" />
+    <state x="1817" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584759984349">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1817" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584759984349" />
     <state x="524" y="89" width="371" height="637" key="#com.intellij.ide.util.MemberChooser" timestamp="1578497625814">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -224,25 +229,25 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="338" y="141" width="735" height="527" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578493574776" />
-    <state width="1807" height="803" key="GridCell.Tab.0.bottom" timestamp="1584707879469">
+    <state width="1807" height="803" key="GridCell.Tab.0.bottom" timestamp="1584708055536">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1807" height="803" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584707879469" />
+    <state width="1807" height="803" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584708055536" />
     <state width="1253" height="508" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1807" height="803" key="GridCell.Tab.0.center" timestamp="1584707879469">
+    <state width="1807" height="803" key="GridCell.Tab.0.center" timestamp="1584708055535">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1807" height="803" key="GridCell.Tab.0.center/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584707879469" />
+    <state width="1807" height="803" key="GridCell.Tab.0.center/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584708055535" />
     <state width="1253" height="508" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1807" height="803" key="GridCell.Tab.0.left" timestamp="1584707879469">
+    <state width="1807" height="803" key="GridCell.Tab.0.left" timestamp="1584708055535">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1807" height="803" key="GridCell.Tab.0.left/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584707879469" />
+    <state width="1807" height="803" key="GridCell.Tab.0.left/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584708055535" />
     <state width="1253" height="508" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
-    <state width="1807" height="803" key="GridCell.Tab.0.right" timestamp="1584707879469">
+    <state width="1807" height="803" key="GridCell.Tab.0.right" timestamp="1584708055536">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1807" height="803" key="GridCell.Tab.0.right/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584707879469" />
+    <state width="1807" height="803" key="GridCell.Tab.0.right/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584708055536" />
     <state width="1253" height="508" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579003573089" />
     <state width="1253" height="190" key="GridCell.Tab.1.bottom" timestamp="1578750207712">
       <screen x="67" y="27" width="1299" height="741" />
@@ -269,6 +274,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="383" y="287" width="646" height="243" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1299.741@67.27.1299.741" timestamp="1578493284714" />
+    <state x="1668" y="280" width="1372" height="554" key="new project wizard" timestamp="1584708053583">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1668" y="280" width="1372" height="554" key="new project wizard/1366.0.1920.1080/0.277.1366.768@1366.0.1920.1080" timestamp="1584708053583" />
     <state x="380" y="174" key="run.anything.popup" timestamp="1578997901955">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
